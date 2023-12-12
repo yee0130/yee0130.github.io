@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!-- 網頁標題 -->
-<title>周姝嫺期末作業</title>
+<title>Groovin one page bootstrap template</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="" />
 <!-- styles -->
-<link rel="stylesheet" href="https://yee0130.github.io/assets/css/fancybox/jquery.fancybox.css">
-<link href="https://yee0130.github.io/assets/css/bootstrap.css" rel="stylesheet" />
-<link href="https://yee0130.github.io/assets/css/bootstrap-theme.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://yee0130.github.io/assets/css/slippry.css">
-<link href="https://yee0130.github.io/assets/css/style.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://yee0130.github.io/assets/color/default.css">
-
-<script src="https://yee0130.github.io/assets/js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css">
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/slippry.css">
+<link href="assets/css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="assets/color/default.css">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<script src="assets/js/modernizr.custom.js"></script>
 </head>
 <body>
 <header>
@@ -23,23 +25,23 @@
 <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
   <div class="container">
 
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!-- 左上角文字說明 -->
-      <a class="navbar-brand" href="index.html">左上角文字說明</a>
+      <a class="navbar-brand" href="index.html">Groovin</a>
     </div>
 
 	<div class="navigation">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><nav>
       <ul class="nav navbar-nav navbar-right">
-        <li class="current"><a href="#intro" >跳到 id=intro 位置</a></li>
-        <li><a href="#about">跳到 id=about 位置</a></li>
-        <li><a href="#works">跳到 id=works 位置</a></li>
-        <li><a href="#contact">跳到 id=contact 位置</a></li>
+        <li class="current"><a href="#intro">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#works">Works</a></li>
+		<li><a href="#contact">Contact</a></li>
       </ul></nav>
     </div><!-- /.navbar-collapse -->
 	</div>
@@ -49,87 +51,39 @@
 
 </header>
 <!-- section intro -->
-<section id="intro" >
-        
-                <ul id="slippry-slider">
-                    <!-- 
-                        第一區塊圖片可以左右移動 可以修改文字增加圖片數量
-                        需要修改三個地方
-                        1. href="#slide1" 修改後面數字 依序累加
-                        2. src= 圖片位置網址
-                        3. alt= 圖片上方顯示文字
-                    
-                        下方整段修改複製
-                        <li>
-                            <a href="#slide1"><img src="https://yee0130.github.io/assets/img/slide/1.jpg" alt="Welcome to Groovin!"></a>
-                      </li>
-                    -->
-                  <li>
-                        <a href="#slide1"><img src="https://yee0130.github.io/assets/img/slide/1.jpg" alt="Welcome to Groovin!"></a>
-                  </li>
-                  <li>
-                        <a href="#slide2"><img src="https://yee0130.github.io/assets/img/slide/2.jpg"  alt="This is an awesome bootstrap template"></a>
-                  </li>
-                  <li>
-                        <a href="#slide3"><img src="https://yee0130.github.io/assets/img/slide/3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-                  </li>
-                </ul>
+<section id="intro">
+			<ul id="slippry-slider">
+			  <li>
+				<a href="#slide1"><img src="assets/img/slide/1.jpg" alt="Welcome to Groovin!"></a>
+			  </li>
+			  <li>
+				<a href="#slide2"><img src="assets/img/slide/2.jpg"  alt="This is an awesome bootstrap template"></a>
+			  </li>
+			  <li>
+				<a href="#slide3"><img src="assets/img/slide/3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+			  </li>
+			</ul>
 </section>
 <!-- end intro -->
 <!-- Section about -->
-<section id="about" class="section" >
+<section id="about" class="section">
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="heading">
-                                                        <h3><span>
-                                                            <!--第一排顯示文字-->
-                                                            第一排顯示文字
-                                                        </span></h3>
+				<h3><span>About us</span></h3>
 			</div>
 			<div class="sub-heading">
 				<p>
-                                                                        <!--第二排顯示文字-->
-                                                                        第二排顯示文字
+					 Creating a visual language around the beliefs of the brands we work with.
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-                                <!--
-                                可以放多個
-                                每行有4個
-                                
-                                需要修改地方有7個
-                                1. img src= 圖片網址
-                                2.<strong>圖片下方第一段文字</strong>
-                                3.<p>圖片下方第二段文字</p>
-                                4.<a href="輸入FB網址"><i class="fa fa-facebook fa-lg"></i></a>
-                                5.<a href="輸入twitter網址"><i class="fa fa-twitter fa-lg"></i></a>
-                                6.<a href="輸入dribbble網址"><i class="fa fa-dribbble fa-lg"></i></a>
-                                
-                                <div class="col-md-3">
-			<div class="team-box">                                                
-			<img src="https://yee0130.github.io/assets/img/dummies/team1.jpg" alt="" class="img-responsive" />
-			<div class="roles">
-				<h5><strong>圖片下方第一段文字</strong></h5>
-				<p>
-					圖片下方第二段文字
-				</p>
-				<ul class="social-profile">
-					<li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble fa-lg"></i></a></li>
-				</ul>
-			</div>
-			</div>
-		</div>
-                                
-                                
-                                -->
 		<div class="col-md-3">
 			<div class="team-box">
-			<img src="https://yee0130.github.io/assets/img/dummies/team1.jpg" alt="" class="img-responsive" />
+			<img src="assets/img/dummies/team1.jpg" alt="" class="img-responsive" />
 			<div class="roles">
 				<h5><strong>Baby Stewards Jr</strong></h5>
 				<p>
@@ -145,7 +99,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="team-box">
-			<img src="https://yee0130.github.io/assets/img/dummies/team2.jpg" alt="" class="img-responsive" />
+			<img src="assets/img/dummies/team2.jpg" alt="" class="img-responsive" />
 			<div class="roles">
 				<h5><strong>Tommy Kreunichev</strong></h5>
 				<p>
@@ -161,7 +115,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="team-box">
-			<img src="https://yee0130.github.io/assets/img/dummies/team3.jpg" alt="" class="img-responsive" />
+			<img src="assets/img/dummies/team3.jpg" alt="" class="img-responsive" />
 			<div class="roles">
 				<h5><strong>Moriella Maccini</strong></h5>
 				<p>
@@ -177,7 +131,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="team-box">
-			<img src="https://yee0130.github.io/assets/img/dummies/team4.jpg" alt="" class="img-responsive" />
+			<img src="assets/img/dummies/team4.jpg" alt="" class="img-responsive" />
 			<div class="roles">
 				<h5><strong>Brian James Scoothie</strong></h5>
 				<p>
@@ -191,7 +145,6 @@
 			</div>
 			</div>
 		</div>
-                               
 	</div>
 </div>
 </section>
@@ -215,23 +168,23 @@
 		<div class="col-md-12">
 						<ul class="grid effect" id="grid">
 						<li>
-							<a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="https://yee0130.github.io/assets/img/portfolio/1.jpg">
-								<img src="https://yee0130.github.io/assets/img/portfolio/1.jpg" alt="" />
+							<a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="assets/img/portfolio/1.jpg">
+								<img src="assets/img/portfolio/1.jpg" alt="" />
 							</a>						
 						</li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/2.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/2.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/3.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/3.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/4.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/4.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/5.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/6.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/6.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/7.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/7.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/8.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/8.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/9.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/9.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/10.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/10.jpg" alt="" /></a></li>  
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/11.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/11.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/12.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/12.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/13.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/13.jpg" alt="" /></a></li>
-						<li><a href="https://yee0130.github.io/assets/img/portfolio/14.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/14.jpg" alt="" /></a></li>   
+						<li><a href="assets/img/portfolio/2.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/2.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/3.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/3.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/4.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/4.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/5.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/6.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/6.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/7.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/7.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/8.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/8.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/9.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/9.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/10.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/10.jpg" alt="" /></a></li>  
+						<li><a href="assets/img/portfolio/11.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/11.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/12.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/12.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/13.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/13.jpg" alt="" /></a></li>
+						<li><a href="assets/img/portfolio/14.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/14.jpg" alt="" /></a></li>   
 						</ul>
 		</div>
 	</div>
@@ -263,7 +216,7 @@
 				Want to work with us or just want to say hello? Don't hesitate to get in touch!
 			</p>
 			<!-- start contact form -->
-<!--						<div class="cform" id="contact-form">
+						<div class="cform" id="contact-form">
 							<div id="sendmessage">
 								 Your message has been sent. Thank you!
 							</div>
@@ -292,7 +245,7 @@
 							  <button type="submit" class="btn btn-lg btn-theme pull-left">Send Message</button>
 							</form>
 
-						</div>-->
+						</div>
 						<!-- end contact form -->
 						<div class="clear"></div>
 		</div>
@@ -327,9 +280,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="aligncenter">
-                                <p>
-                                         &copy;2015 Groovin - All right reserved | Designed by <a href="http://bootstraptaste.com">BootstrapTaste</a>.
-                                </p>
+					<p>
+						 &copy;2015 Groovin - All right reserved | Designed by <a href="http://bootstraptaste.com">BootstrapTaste</a>.
+					</p>
                     <!-- 
                         All links in the footer should remain intact. 
                         Licenseing information is available at: http://bootstraptaste.com/license/
@@ -343,26 +296,22 @@
 </footer>
 <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
 <!-- javascript -->
-<script src="https://yee0130.github.io/assets/js/jquery-1.9.1.min.js"></script>
-<script src="https://yee0130.github.io/assets/js/jquery.easing.js"></script>
-<script src="https://yee0130.github.io/assets/js/classie.js"></script>
-<script src="https://yee0130.github.io/assets/js/bootstrap.js"></script>
-<script src="https://yee0130.github.io/assets/js/slippry.min.js"></script>
-<script src="https://yee0130.github.io/assets/js/nagging-menu.js"></script>
-<!--
-
-
-<script src="https://yee0130.github.io/assets/js/jquery.nav.js"></script>
-<script src="https://yee0130.github.io/assets/js/jquery.scrollTo.js"></script>
-<script src="https://yee0130.github.io/assets/js/jquery.fancybox.pack.js"></script> 
-<script src="https://yee0130.github.io/assets/js/jquery.fancybox-media.js"></script> -->
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>-->
-<!--<script src="https://yee0130.github.io/assets/js/masonry.pkgd.min.js"></script>-->
-<!--<script src="https://yee0130.github.io/assets/js/imagesloaded.js"></script>-->
-<!--<script src="https://yee0130.github.io/assets/js/jquery.nicescroll.min.js"></script>-->
-<!--<script src="https://yee0130.github.io/assets/js/validate.js"></script>	
-<script src="https://yee0130.github.io/assets/js/AnimOnScroll.js"></script>-->
-
+<script src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/slippry.min.js"></script>
+<script src="assets/js/nagging-menu.js"></script>
+<script src="assets/js/jquery.nav.js"></script>
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/jquery.fancybox-media.js"></script> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/imagesloaded.js"></script>
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+<script src="assets/js/validate.js"></script>	
+<script src="assets/js/AnimOnScroll.js"></script>
     <script>
         new AnimOnScroll( document.getElementById( 'grid' ), {
             minDuration : 0.4,
@@ -388,7 +337,7 @@
 	});
 </script>
 
-<script src="https://yee0130.github.io/assets/js/custom.js"></script>
+<script src="assets/js/custom.js"></script>
         <script type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
