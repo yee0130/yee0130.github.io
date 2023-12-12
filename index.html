@@ -204,7 +204,7 @@
 			<div class="heading">
                                                     <h3><span>
                                                         <!-- 第三區塊標題文字 -->
-                                                        第三區塊標題文字 近期作品 DDDDD
+                                                        第三區塊標題文字 近期作品
                                                     </span></h3>
 			</div>
 			<div class="sub-heading">
@@ -218,11 +218,14 @@
 	<div class="row">
 		<div class="col-md-12">
                                     <ul class="grid effect" id="grid">
-                                    <li>
-                                            <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="https://yee0130.github.io/assets/img/portfolio/1.jpg">
-                                                    <img src="https://yee0130.github.io/assets/img/portfolio/1.jpg" alt="" />
-                                            </a>						
-                                    </li>
+                                    <!--
+                                    1. 修改 a href= 圖片網址
+                                    2. 修改 img src= 圖片網址
+                                    同一排網址需要一樣
+                                    
+                                    <li><a href="https://yee0130.github.io/assets/img/portfolio/1.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name" ><img src="https://yee0130.github.io/assets/img/portfolio/1.jpg" alt="" /></a></li>
+                                    -->
+                                    <li><a href="https://yee0130.github.io/assets/img/portfolio/1.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name" ><img src="https://yee0130.github.io/assets/img/portfolio/1.jpg" alt="" /></a></li>
                                     <li><a href="https://yee0130.github.io/assets/img/portfolio/2.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/2.jpg" alt="" /></a></li>
                                     <li><a href="https://yee0130.github.io/assets/img/portfolio/3.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/3.jpg" alt="" /></a></li>
                                     <li><a href="https://yee0130.github.io/assets/img/portfolio/4.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="https://yee0130.github.io/assets/img/portfolio/4.jpg" alt="" /></a></li>
@@ -248,12 +251,17 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="heading">
-				<h3><span>Get in touch</span></h3>
+                                                        <h3><span>
+                                                            <!-- 第四區塊標題文字 -->
+                                                            第四區塊標題文字 保持聯繫                                                             
+                                                        </span></h3>
 			</div>
 			<div class="sub-heading">
-				<p>
-					 Lorem ipsum dolor sit amet, mutat paulo simul per no, assum fastidii vituperata eam no.
-				</p>
+                                                    <p>
+                                                            <!-- 第四區塊說明文字 -->
+                                                            第四區塊說明文字<br>
+                                                             Lorem ipsum dolor sit amet, mutat paulo simul per no, assum fastidii vituperata eam no.
+                                                    </p>
 			</div>
 		</div>
 	</div>
@@ -262,51 +270,71 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6">
-			<h4><i class="icon-envelope"></i><strong>Contact form</strong></h4>
+			<h4><i class="icon-envelope"></i><strong>
+                                                        <!-- 第四區塊 左邊標題文字 -->
+                                                            第四區塊 左邊標題文字   
+                                                    </strong></h4>
 			<p>
+                                                        <!-- 第四區塊 左邊說明文字 -->
+                                                        第四區塊 左邊說明文字<br>   
 				Want to work with us or just want to say hello? Don't hesitate to get in touch!
 			</p>
-			<!-- start contact form -->
-<!--						<div class="cform" id="contact-form">
-							<div id="sendmessage">
-								 Your message has been sent. Thank you!
-							</div>
-							<form action="contact/contact.php" method="post" role="form" class="contactForm">
-							  <div class="form-group">
-								<label for="name">Your Name</label>
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="email">Your Email</label>
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="subject">Subject</label>
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="message">Message</label>
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-								<div class="validation"></div>
-							  </div>
-							  
-							  <button type="submit" class="btn btn-lg btn-theme pull-left">Send Message</button>
-							</form>
+			<!-- start contact form
+                                                第四區塊 左邊內容 開始
+                                                -->
+                                                <div class="cform" id="contact-form">
+                                                            <div id="sendmessage">
+                                                                    第四區塊 內容可已修改 也可以移除                                                                     
+                                                            </div>
+                                                            <form action="contact/contact.php" method="post" role="form" class="contactForm">
+                                                              <div class="form-group">
+                                                                    <label for="name">Your Name</label>
+                                                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+                                                                    <div class="validation"></div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                    <label for="email">Your Email</label>
+                                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                                                    <div class="validation"></div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                    <label for="subject">Subject</label>
+                                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                                                    <div class="validation"></div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                    <label for="message">Message</label>
+                                                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                                                                    <div class="validation"></div>
+                                                              </div>
 
-						</div>-->
-						<!-- end contact form -->
+                                                              <button type="submit" class="btn btn-lg btn-theme pull-left">Send Message</button>
+                                                            </form>
+
+                                                    </div>
+                                                    <!--
+                                                        第四區塊 左邊內容 結束
+                                                        end contact form 
+                                                    -->
 						<div class="clear"></div>
 		</div>
 		<div class="col-md-6">
-						<h4>Find our location</h4>
-						<p>View from google map</p>
-						<!-- map -->
-						<div id="section-map" class="clearfix">
-							<div id="map"></div>
-						</div>	
+                                                <h4>
+                                                        <!-- 第四區塊 右邊標題文字 -->
+                                                        第四區塊 右邊標題文字<br>   
+                                                        Find our location
+                                                </h4>
+                                                <p>
+                                                        <!-- 第四區塊 右邊說明文字 -->
+                                                        第四區塊 右邊說明文字<br>  View from google map
+                                                </p>
+                                                <!-- 
+                                                map -
+                                                google 地圖
+                                                ->
+                                                <div id="section-map" class="clearfix">
+                                                        <div id="map"></div>
+                                                </div>	
 		</div>
 	</div>
 </div>
@@ -359,7 +387,7 @@
 -->
 <script src="https://yee0130.github.io/assets/js/jquery.fancybox.pack.js"></script> 
 <script src="https://yee0130.github.io/assets/js/jquery.fancybox-media.js"></script> 
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
 <script src="https://yee0130.github.io/assets/js/masonry.pkgd.min.js"></script>
 <script src="https://yee0130.github.io/assets/js/imagesloaded.js"></script>
 <script src="https://yee0130.github.io/assets/js/jquery.nicescroll.min.js"></script>
