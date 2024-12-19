@@ -396,7 +396,7 @@
 	</div>
 </div>
 </footer>
-<a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
+<a href="#" class="scrollup" onclick="Show(0)" ><i class="fa fa-angle-up fa-2x"></i></a>
 <!-- javascript -->
 <script src="https://yee0130.github.io/assets/js/jquery-1.9.1.min.js"></script>
 <script src="https://yee0130.github.io/assets/js/jquery.easing.js"></script>
@@ -425,7 +425,12 @@
         } );
 		
 		function Show(v){
-			if(v==1){
+			if(v==0){
+				document.getElementById('intro').style.visibility='visible';
+				document.getElementById('about').style.visibility='visible';
+				document.getElementById('works').style.visibility='visible';
+				
+			}else if(v==1){
 				document.getElementById('intro').style.visibility='visible';
 				document.getElementById('about').style.visibility='hidden';
 				document.getElementById('works').style.visibility='hidden';
