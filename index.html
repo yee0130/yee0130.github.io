@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!--
+	網頁 <head> 區塊：
+	- 用於引入必要的樣式與腳本
+	- 包含網站的基本資訊如標題和元數據
+-->
 <meta charset="utf-8">
 <title>Jhou Shu Sian Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,8 +21,17 @@
 <script src="https://yee0130.github.io/assets/js/modernizr.custom.js"></script>
 </head>
 <body>
+<!--
+	網頁 <body> 區塊：
+	- 包含所有可見內容與互動元素
+	- 包括導航欄、主頁內容、關於我區塊、近期作品展示等
+-->
 <header>
-
+<!--
+	網頁 <header> 區塊：
+	- 定義頂部導航欄
+	- 包含網站的標誌和導覽連結
+-->
 <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
   <div class="container">
 
@@ -44,6 +58,11 @@
 </div>
 
 </header>
+<!--
+        主頁介紹區塊 (id="intro")：
+        - 包含滑動圖片展示區域
+        - 可用於展示首頁相關內容或吸引視覺的圖片
+    -->
 <section id="intro"  >
         
                 <ul id="slippry-slider">                    
@@ -64,6 +83,11 @@
                   </li>
                 </ul>
 </section>
+<!--
+        關於我區塊 (id="about")：
+        - 包括個人資訊如學歷、證照及圖片介紹
+        - 適合作為展示個人背景的部分
+    -->
 <section id="about" class="section"  >
 <div class="container">
 	<div class="row">
@@ -89,7 +113,19 @@
 		</div>
 	</div>
 	<div class="row">
-                              
+		<!--
+		可以放多個
+		每行有4個
+
+		需要修改地方有7個
+		1. img src= 圖片網址
+		2.<strong>圖片下方第一段文字</strong>
+		3.<p>圖片下方第二段文字</p>
+		4.<a href="輸入FB網址"><i class="fa fa-facebook fa-lg"></i></a>
+		5.<a href="輸入twitter網址"><i class="fa fa-twitter fa-lg"></i></a>
+		6.<a href="輸入dribbble網址"><i class="fa fa-dribbble fa-lg"></i></a>
+
+		-->                      
 		<div class="col-md-3">
 			<div class="team-box">
 			<img src="https://yee0130.github.io/cat/S__76201990.jpg" alt="" class="img-responsive" />
@@ -111,6 +147,11 @@
 	</div>
 </div>
 </section>
+<!--
+        近期作品展示區塊 (id="works")：
+        - 用於展示作品集，採用圖片網格排列方式
+        - 每張圖片可點擊查看大圖
+    -->
 <section id="works" class="section gray" >
 <div class="container">
 	<div class="row">
@@ -128,7 +169,12 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-                                    <ul class="grid effect" id="grid">                                  
+                                    <ul class="grid effect" id="grid">          
+									<!--
+                                    1. 修改 a href= 圖片網址
+                                    2. 修改 img src= 圖片網址
+                                    同一排網址需要一樣                                    
+                                    -->									
                                     <li><a href="https://yee0130.github.io/electric/1.png" class="fancybox" data-fancybox-group="gallery" title="作品1" ><img src="https://yee0130.github.io/electric/1.png" alt="" /></a></li>
                                     <li><a href="https://yee0130.github.io/electric/2.png" class="fancybox" data-fancybox-group="gallery" title="作品2" ><img src="https://yee0130.github.io/electric/2.png" alt="" /></a></li>
                                     <li><a href="https://yee0130.github.io/electric/3.png" class="fancybox" data-fancybox-group="gallery" title="作品3" ><img src="https://yee0130.github.io/electric/3.png" alt="" /></a></li>
@@ -157,12 +203,20 @@
 </section>
 
 <footer>
+ <!--
+        網頁頁尾 (footer)：
+        - 包含社交媒體連結和版權資訊
+        - 另外提供返回頂部的按鈕功能
+    -->
 <div class="verybottom">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="aligncenter">
                 <ul class="social-network social-circle">
+					<!-- 下方黑色區域  
+                    href="#" 設定連結網址
+                    -->
                     <li><a target="_blank" href="https://www.facebook.com/tsuchichi?mibextid=wwXIfr&rdid=SaVBnYMzqQGxJdiw&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BoLuubJec%2F%3Fmibextid%3DwwXIfr#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a target="_blank" href="https://www.instagram.com/tomatoo_0130/profilecard/?igsh=MXV6MHp3bW8yMTRpdA%3D%3D" class="icoInstagram" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                 </ul>					
