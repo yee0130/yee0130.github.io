@@ -36,9 +36,9 @@
 	<div class="navigation">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><nav>
       <ul class="nav navbar-nav navbar-right">
-        <li class="current"><a href="#intro" >主頁</a></li>
-        <li><a href="#about">關於我</a></li>
-        <li><a href="#works">近期作品</a></li>
+        <li class="current"><a href="#" onclick="Show(1)" >主頁</a></li>
+        <li><a href="#" onclick="Show(2)" >關於我</a></li>
+        <li><a href="#" onclick="Show(3)" >近期作品</a></li>
         <!--<li><a href="#contact">跳到 id=contact 位置</a></li>-->
       </ul></nav>
     </div><!-- /.navbar-collapse -->
@@ -423,6 +423,24 @@
             maxDuration : 0.7,
             viewportFactor : 0.2
         } );
+		
+		function Show(v){
+			if(v==1){
+				document.getElementById('intro').style.visibility='visible';
+				document.getElementById('about').style.visibility='hidden';
+				document.getElementById('works').style.visibility='hidden';
+			}else if(v==2){
+				document.getElementById('intro').style.visibility='hidden';
+				document.getElementById('about').style.visibility='visible';
+				document.getElementById('works').style.visibility='hidden';
+			}else if(v==3){
+				document.getElementById('intro').style.visibility='hidden';
+				document.getElementById('about').style.visibility='hidden';
+				document.getElementById('works').style.visibility='visible';
+			}
+		}
+		Show(1);		
+		
     </script>
 <script>
 	$(document).ready(function(){
