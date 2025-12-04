@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>熱門歌曲排行榜</title>
+<style>
+    /* 1. 後代選擇器：所有 li 字型為 Arial */
+    .song-list li {
+        font-family: Arial;
+        padding: 5px;
+    }
+
+    /* 2. 隔行變色：奇數列變淺灰 */
+    .song-list li:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+
+    /* 3. 滑鼠滑過變紅 */
+    .song-list li:hover {
+        color: red;
+    }
+
+    /* 4. before 虛擬元素：每個 li 前面加音符 */
+    .song-list li::before {
+        content: "🎵 ";
+    }
+
+    /* 5. 指定第一名放大加粗（不能改 HTML，用偽類） */
+    .song-list li:first-child {
+        font-size: 20px;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="song-list">
+    <ul>
+        <li>第一名：告白氣球</li>
+        <li>第二名：修煉愛情</li>
+        <li>第三名：光年之外</li>
+        <li>第四名：小幸運</li>
+        <li>第五名：演員</li>
+    </ul>
+</div>
+
+</body>
+</html>
